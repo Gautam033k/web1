@@ -1,0 +1,419 @@
+body{
+    font-family: 'Montdserrat';
+}
+#title{
+    background-color: #fff;
+}
+h1{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;  
+    color: #000;
+}
+h2{
+    font-family: "Montserrat-black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat-black";
+    font-weight: 50rem;
+}
+p{
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+.heading-tag{
+    margin-top: 60px;
+}
+
+.container-fluid{
+    padding: 5% 15%;
+
+}
+
+/* navigataion bar */
+
+.navbar-brand{
+    font-family: 'EB Garamond', serif;
+    font-size: 2.5rem;
+    line-height: 2;
+    font-weight: bold;
+    padding: 0 0 0 10px;
+    color: #EF5B0C;;
+}
+.navbar{
+    padding: 0;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-family: "Montserrat-light";
+    color: #000;    
+
+}
+.divider{
+        border-top: 3px solid red;
+        margin-top: 0;
+      }
+
+      .divider-vertical{
+        width: 1px;
+        margin: 6px 0;
+        background: black;
+      }
+
+      
+
+  /* title     */
+.shopping-image{
+    height: 100%;
+    width: 100%;
+}
+
+.item-use{
+    color: #EF5B0C;;
+    border-radius: 0.2em;
+    font-size: 1.7rem;
+    padding: 0.3em;
+
+}
+.flex-use{
+    margin: 25px 0 25px 0;
+    width: 100%;
+}
+
+
+button{
+    color: #fff;
+}
+.btn-use{
+    background-color: #EF5B0C;
+    padding:8px 30px;
+    margin-bottom: 2%;
+    color: #fff;
+    font-size: 1.7rem;
+
+}
+.fa-google-play{
+    padding: 10px 10px;
+}
+.hr-use-1{
+  width: 22%;
+  height: 1px;
+  margin: 30px 10px 0 150px;
+}
+.hr-use-2{
+    width: 22%;
+    height: 1px;
+    margin: 30px 10px 0 10px;
+}
+.section-seperator{
+    margin-top: 5%;
+}
+.page_2_title{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 46px;
+    line-height: 54px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+/* ----------------------------------- */
+/* features section */
+
+.women-wear-image{
+    width: 400px;
+    height: 500px;
+    padding-left: 5%;
+}
+.women-wear-button{
+     position: absolute;
+     top:1300px;
+     left: 130px;
+     padding: 6px 30px;
+     font-size: 2rem;
+     border-radius: 40px;
+     border: 2px solid;
+     color: #fff;
+     background-color: #EF5B0C;
+}
+.men-wear-button{
+    position: absolute;
+    top: 1290px;
+    left: 570px;
+     padding: 10px 60px;
+     font-size: 2rem;
+     border-radius: 40px;
+     border: 2px solid;
+     color: #fff;
+     background-color: #EF5B0C;
+
+}
+.kids-wear-button{
+    position: absolute;
+    top: 1290px;
+    padding-right: 50px;
+    left: 1090px;
+    padding:12px 50px;
+    font-size: 1.8rem;
+    border-radius: 40px;
+    border: 2px solid;
+    color: #fff;
+    background-color: #EF5B0C;
+}
+.men-wear-image{
+    width: 350px;
+    height: 500px;
+    padding-top: 100px;
+}
+.kids-wear-image{
+    width: 350px;
+    height: 500px;
+    padding-top: 100px;
+
+}
+.fashion-store{
+    padding:1% 1% 3% 1%;
+    border: 10px solid;
+    border-color: #EF5B0C;
+}
+
+#features{
+    padding: 3% 50px 5%;
+}
+.feature-box{
+    /* text-align: center; */
+    padding: 30px 10px 30px 10px;
+}
+
+
+/* buisness */
+
+.buisness-image{
+    width: 90%;
+    height: 100%;
+    padding-bottom: 7%;
+}
+
+.text-on-image{
+    position: absolute;
+    top: 1620px;
+    left: 850px;
+}
+.heading-c3{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: rgb(85, 133, 248);
+    font-style: normal;
+    line-height: 40px;
+    font-family: 'Radio Canada';
+    text-align: right;
+
+}
+.heading-c{
+    color: rgb(255, 0, 132);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    font-family: 'Radio Canada';
+    text-align: right;
+
+}
+.buisness-button-main{
+
+}
+.google-play-buisness-button{
+    position: absolute;
+    top: 1850px;
+    right: 350px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+.apple-buisness-button{
+    position: absolute;
+    top: 1850px;
+    right: 175px;
+    padding-bottom: 13px;
+    height: 58px;
+    right: 150px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#buisness{
+    text-align: center;
+}
+
+/* supplier */
+
+.supplier-image{
+    width: 90%;
+    height: 100%;
+    padding-bottom: 5%;
+    text-align: center;
+    margin-left: 70px;
+}
+.content{
+    position: absolute;
+    top: 2350px;
+    left: 80px;
+    padding: 30px 60px;
+    font-family: 'Radio Canada';
+
+}
+.content-title{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'Radio Canada';
+   
+}
+.content-sub-title{
+    margin-top: 16px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #fff;
+
+}
+.text-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    text-align: left;
+
+}
+.afghbf{
+    padding: 0 30px 0 0;
+}
+.text-point{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-left: 8px;
+    color: #fff;
+
+}
+
+.divider-vertical-white{
+    width: 1px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: #fff;
+}
+.signup-btn{
+    background-color: #fff;
+    margin-top: 50px;
+    color: #EF5B0C;
+    font-size: 1.8rem;
+}
+
+
+/* --------------------- */
+/* testimonials */
+
+#testimonials{
+  padding:5% 15% 5% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+
+.carousel-item{
+    /* padding: 1% 15%; */
+}
+
+/* pricing section */
+
+#pricing{
+    /* padding: 100px; */
+    text-align: center;
+}
+
+.pricing-column{
+    /* padding: 3% 2%; */
+}
+.cccccc{
+    text-align: center;
+    width: 60%;
+    height: 100%;
+}
+
+.card-img{
+    width: 100%;
+}
+
+#product-cards{
+    /* text-align: center;
+    padding: 7% 15%;
+    /* background-color: #ef8172; */
+    /* margin-bottom: 3%;
+    padding-left: 690px;
+    padding-right: 605px; */ 
+    /* margin-bottom: 1%; */
+    /* padding-bottom: 10px; */
+}
+.pad-c{
+    padding-bottom: 1%;
+}
+.card-cc{
+padding: 0;
+
+}
+.rps{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width:950px){
+      #title{
+        text-align: center;
+      }
+
+    .shopping-image{
+        position: static;
+        width:100%;
+        transform: rotate(-45);
+    }
+}
+
+/* cta section */
+#cta{
+    text-align: center;
+    padding: 7% 15% 7% 15%;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.cta-header{
+    font-family: "Montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+.end-button{
+    padding: 8px 20px 8px 25px;
+    margin-right: 1%;
+}
+.end-buttona{
+    padding: 4px 20px 4px 20px;
+}
+
+/* footerr */
+
+#footer{
+    text-align: center;
+}
+.footer-c{
+    margin-top: 10%;
+    padding-right: 1% ;
+}
